@@ -1,0 +1,772 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: black;
+}
+
+header nav{
+    width: 100%;
+    height: 150px;
+    background: black;
+    align-items: center;
+    display: flex;
+    padding-left: 100px;
+}
+
+header nav .back-yel-btn{
+    width: 150px;
+    height: 35px;
+    color: black;
+    font-size: 20px;
+    background: gold;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    margin-left: 500px;
+}
+
+header nav ul{
+    display: flex;
+    color: gray;
+    list-style: none;
+    gap: 40px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+header nav .sec-btn{
+    width: 130px;
+    height: 35px;
+    background: black;
+    border: none;
+    color: gray;
+    font-size: 20px;
+    box-shadow: 0 0 1px 3px gray;
+    border-radius: 12px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+header nav .sec-btn:hover{
+    background: gold;
+    color: black;
+    box-shadow: none;
+    transition: 1s;
+}
+
+/*? main */
+
+main{
+    width: 100%;
+    padding-left: 100px;
+}
+
+/*? .first-win */
+
+main .first-win{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    padding-right: 100px;
+}
+
+main .first-win .div1{
+    width: 650px;
+    height: 400px;
+    background: rgb(43, 43, 43);
+    color: white;
+    border-radius: 16px;
+    padding: 30px;
+}
+
+main .first-win .div1 h1{
+    font-size: 40px;
+}
+
+main .first-win .div1 p{
+    width: 500px;
+    font-size: 18px;
+    color: gray;
+    margin-top: 30px;
+}
+
+main .first-win .div1 img{
+    width: 265px;
+    height: 265px;
+    margin-left: 350px;
+}
+
+main .first-win .div2{
+    width: 650px;
+    height: 400px;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    border-radius: 16px;
+    padding: 35px;
+    padding-right: 130px;
+}
+
+main .first-win .div2 h1{
+    color: gold;
+    margin-bottom: 20px;
+    font-size: 42px;
+}
+
+main .first-win .div2 p{
+    color: gray;
+    margin-bottom: 30px;
+}
+
+main .first-win .div2 .big-inp{
+    width: 100%;
+    height: 70px;
+    background: rgb(50, 50, 50);
+    color: white;
+    font-size: 30px;
+    padding-left: 40px;
+    align-items: center;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+}
+
+main .first-win .div2 input:hover{
+    transform: scale(1.05);
+    border: 2px solid gold;
+    transition: 1s;
+    cursor: pointer;
+}
+
+main .first-win .div2 input::placeholder{
+    color: rgb(169, 169, 169);
+}
+
+main .first-win .div2 .btn{
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+main .first-win .div2 .btn .small-inp{
+    width: 315px;
+    height: 70px;
+    background: rgb(50, 50, 50);
+    color: white;
+    font-size: 30px;
+    padding-left: 40px;
+    align-items: center;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+}
+
+.first-win .div2 .btn button{
+    width: 175px;
+    height: 70px;
+    background: gold;
+    color: black;
+    font-size: 20px;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.first-win .div2 .btn button:hover{
+    background: yellow;
+}
+
+/*? .second-win */
+
+.second-win{
+    width: 100%;
+    color: white;
+    margin-top: 50px;
+}
+
+.second-win h1{
+    color: white;
+    font-size: 40px;
+}
+
+.second-win h1 span{
+    color: gold;
+}
+
+.second-win .divs{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.second-win .divs >.div{
+    width: 315px;
+    height: 360px;
+    background: rgb(50, 50, 50);
+    border-radius: 16px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.second-win .divs .div img{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.second-win .divs .div2{
+    width: 650px;
+    height: 360px;
+    background: rgb(50, 50, 50);
+    border-radius: 16px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.second-win .divs .div2 h1{
+    width: 100%;
+    font-size: 35px;
+}
+
+.second-win .divs .div2 .div{
+    display: flex;
+    gap: 20px;
+}
+
+.second-win .divs .div2 .div .text{
+    width: 800px;
+}
+
+.second-win .divs .div2 .div .text h1{
+    color: white;
+    margin-top: 20px;
+}
+
+.second-win .divs .div2 .div .text h1 span{
+    color: gray;
+}
+
+.second-win .divs .div2 .div .text p{
+    width: 300px;
+    margin-top: 20px;
+}
+
+/*? .third-win */
+
+.third-win{
+    width: 100%;
+    color: white;
+    margin-top: 50px;
+    padding-right: 100px;
+}
+
+.third-win h1{
+    font-size: 40px;
+}
+
+.third-win h1 span{
+    color: gold;
+}
+
+.third-win .divs{
+    width: 100%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2, 200px);
+}
+
+.third-win .divs .div{
+    margin: 10px;
+    border-radius: 24px;
+    color: white;
+    background: rgb(43, 43, 43);
+    padding: 30px;
+}
+
+.third-win .divs .div .text{
+    width: 80%;
+}
+
+.third-win .divs .div .text p{
+    color: gray;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+/*? .fourth-win */
+
+.fourth-win{
+    width: 100%;
+    color: white;
+    margin-top: 50px;
+    padding-right: 100px;
+}
+
+.fourth-win .divs{
+    width: 100%;
+    height: 720px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+}
+
+.fourth-win .divs .div{
+    margin: 15px;
+    background: rgb(43, 43, 43);
+    border-radius: 24px;
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+.fourth-win .divs .div .text{
+    width: 400px;
+    height: 100%;
+    position: relative;
+}
+
+.fourth-win .divs .div .text h1{
+    color: white;
+    font-family: serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.fourth-win .divs .div .text p{
+    color: gray;
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 20px;
+    position: absolute;
+    width: 100%;
+}
+
+.fourth-win .divs .div img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 30px;
+}
+
+/*? .fifth-win */
+
+.fifth-win{
+    width: 100%;
+    color: white;
+    margin-top: 50px;
+    padding-right: 100px;
+}
+
+.fifth-win h1{
+    font-size: 40px;
+}
+
+.fifth-win .divs{
+    width: 100%;
+    height: 930px;
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, auto);
+}
+
+.fifth-win .divs .box{
+    margin: 10px;
+    border-radius: 24px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.fifth-win .divs .box img{
+    width: 160px;
+    height: 165px;
+    position: absolute;
+    border-radius: 24px;
+    border: 1px solid white;
+    filter: grayscale(100%);
+}
+
+.fifth-win .divs .box .divv{
+    width: 450px;
+    height: 165px;
+    position: absolute;
+    right: 0;
+    background: rgb(24, 24, 24);
+    padding: 20px;
+    border-radius: 24px;
+}
+
+.fifth-win .divs .box .div{
+    width: 450px;
+    height: 165px;
+    position: absolute;
+    right: 0;
+    background: rgb(24, 24, 24);
+    padding: 20px;
+    border-radius: 24px;
+}
+
+.fifth-win .divs .box:hover{
+    .divv{
+        background: gold;
+        color: black;
+    }
+    .div{
+        background: gold;
+        color: black;
+    }
+    img{
+        filter: grayscale(0%);
+    }
+}
+
+.fifth-win .divs .box .divv h1{
+    font-size: 40px;
+    width: 200px;
+}
+
+.fifth-win .divs .box .divv p{
+    color: gray;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.fifth-win .divs .box .div h1{
+    font-size: 30px;
+}
+
+.fifth-win .divs .box .div h2{
+    color: gray;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.fifth-win .divs .box .div p{
+    color: gray;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+/*? .sixth-win */
+
+.sixth-win{
+    width: 100%;
+    color: white;
+    margin-top: 50px;
+    padding-right: 100px;
+}
+
+.sixth-win .divs{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.sixth-win .divs .b-div{
+    width: 675px;
+    height: 430px;
+    border-radius: 24px;
+    background: url(./img/image\ copy\ 18.png) no-repeat center/cover;
+}
+
+.sixth-win .divs .divv .div{
+    width: 675px;
+    height: 210px;
+    margin-bottom: 20px;
+    background: rgb(24, 24, 24);
+    border-radius: 24px;
+    padding: 30px;
+    position: relative;
+}
+
+.sixth-win .divs .divv .div h1{
+    margin-top: 5px;
+}
+
+.sixth-win .divs .divv .div h2{
+    color: gray;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.sixth-win .divs .divv .div .text .box{
+    width: 200px;
+}
+
+.sixth-win .box{
+    width: 100%;
+    height: 260px;
+    padding: 48px;
+    background: rgb(24, 24, 24);
+    border-radius: 24px;
+}
+
+.sixth-win .box h1{
+    color: gold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.sixth-win .box p{
+    color: gray;
+}
+
+main .sixth-win .btn .big-inp{
+    height: 70px;
+    background: rgb(50, 50, 50);
+    color: white;
+    font-size: 30px;
+    padding-left: 40px;
+    align-items: center;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+}
+
+main .sixth-win .btn input:hover{
+    transform: scale(1.05);
+    border: 2px solid gold;
+    transition: 1s;
+    cursor: pointer;
+}
+
+main .sixth-win .btn input::placeholder{
+    color: rgb(169, 169, 169);
+}
+
+main .sixth-win .btn{
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+main .sixth-win .btn .small-inp{
+    width: 315px;
+    height: 70px;
+    background: rgb(50, 50, 50);
+    color: white;
+    font-size: 30px;
+    padding-left: 40px;
+    align-items: center;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+}
+
+.sixth-win .btn button{
+    width: 200px;
+    height: 70px;
+    background: gold;
+    color: black;
+    font-size: 20px;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.sixth-win .btn button:hover{
+    background: yellow;
+}
+
+/*? .seventh-win */
+
+.seventh-win{
+    width: 100%;
+    height: 600px;
+    background: rgb(24, 24, 24);
+    color: white;
+    border-radius: 24px;
+    margin-top: 50px;
+    display: flex;
+    padding: 30px;
+}
+
+.seventh-win .text h1{
+    font-size: 60px;
+}
+
+.seventh-win .text h2{
+    font-size: 40px;
+    color: gray;
+    margin-top: 20px;
+}
+
+.seventh-win img{
+    width: 380px;
+    height: 380px;
+    margin-top: 200px;
+}
+
+/*? footer */
+
+footer{
+    width: 100%;
+    height: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 20px;
+    color: gray;
+}
+
+footer .box{
+    display: flex;
+    gap: 30px;
+}
+
+footer .box .text{
+    color: gray;
+    font-size: 16px;
+}
+
+footer p{
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+footer p:hover{
+    color: gold;
+    transition: 1s;
+}
+
+footer .box .icons{
+    width: 300px;
+    position: absolute;
+    right: 100px;
+    display: flex;
+    gap: 20px;
+}
+
+footer .box .icons i{
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 12px;
+    background: rgb(24, 24, 24);
+    color: gray;
+    cursor: pointer;
+}
+
+footer .box .icons i:hover{
+    background-color: black;
+    border: 1px solid gray;
+    transition: 1s;
+}
+
+footer .textt{
+    display: flex;
+    gap: 10px;
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 431px) {
+    header nav{
+        width: 430px;
+        height: 100px;
+        flex-direction: column;
+    }    
+
+    main .first-win{
+        flex-direction: column;
+    }
+
+    main .second-win{
+        flex-direction: column;
+    }
+
+    main .second-win .divs{
+        flex-direction: column;
+    }
+
+    main .third-win .divs{
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, 400px);
+        grid-template-rows: repeat(2, auto);
+    }
+
+    main .fourth-win .divs{
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, 440px);
+    }
+
+    main .fourth-win .divs .div img{
+        width: 80px;
+        height: 100px;
+        position: absolute;
+        margin-top: 10px;
+    }
+
+
+    main .fifth-win .divs{
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(1, 700px);
+        grid-template-rows: repeat(8, 250px);
+    }
+
+    main .sixth-win{
+        width: 400px;
+        height: 600px;
+        margin-top: 1200px;
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(1, 600px);
+    }
+
+    main .sixth-win .divs{
+        flex-direction: column;
+    }
+
+    main .sixth-win .btn{
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(1, 400px);
+        margin-top: 100px;
+    }
+
+    main .sixth-win .seventh-win{
+        margin-top: 500px;
+        flex-direction: column;
+        position: relative;
+    }
+
+    main .sixth-win .seventh-win img{
+        position: absolute;
+        left: 550px;
+        bottom: 100px;
+    }
+
+    footer{
+        height: 400px;
+        margin-top: 2000px;
+        padding-left: 100px;
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(1, 700px);
+        grid-template-rows: repeat(3, auto);
+    }
+
+    footer .icons{
+        margin-top: 100px;
+        padding-left: 80px;
+    }
+
+    footer .textt{
+        margin-top: 150px;
+    }
+}
