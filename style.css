@@ -719,6 +719,10 @@ footer .textt{
         grid-template-rows: repeat(8, 250px);
     }
 
+    main .fifth-win .divs .box{
+        width: 700px;
+    }
+
     main .sixth-win{
         width: 400px;
         height: 600px;
